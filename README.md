@@ -1,12 +1,12 @@
-# Docker compose PHP 8.4.13, Xdebug 3.4.6, Nginx 1.29.1, Redis 8.2.2 and MariaDB 12.0.2
+# Docker compose PHP 8.5.0, Xdebug 3.5.0, Nginx 1.29.3, Redis 8.4.0 and MariaDB 12.1.2
 
 ![docker](https://img.shields.io/badge/Docker-compose-brightgreen.svg)
-![nginx](https://img.shields.io/badge/nginx-1.29.1-brightgreen.svg)
-![php](https://img.shields.io/badge/PHP_FPM-8.4.13-brightgreen.svg)
-![phpunit](https://img.shields.io/badge/PHPUnit-11.4.3-brightgreen.svg)
-![xdebug](https://img.shields.io/badge/Xdebug-3.4.6-brightgreen.svg)
-![redis](https://img.shields.io/badge/Redis-8.2.2-brightgreen.svg)
-![mariadb](https://img.shields.io/badge/MariaDB-12.0.2-brightgreen.svg)
+![nginx](https://img.shields.io/badge/nginx-1.29.3-brightgreen.svg)
+![php](https://img.shields.io/badge/PHP_FPM-8.5.0-brightgreen.svg)
+![phpunit](https://img.shields.io/badge/PHPUnit-12.5.1-brightgreen.svg)
+![xdebug](https://img.shields.io/badge/Xdebug-3.5.0-brightgreen.svg)
+![redis](https://img.shields.io/badge/Redis-8.4.0-brightgreen.svg)
+![mariadb](https://img.shields.io/badge/MariaDB-12.1.2-brightgreen.svg)
 
 # Goal of this project
 
@@ -15,13 +15,13 @@ The primary goal of this project is to create a streamlined and efficient develo
 # Services
 
 * Easy setup with [docker compose](https://docs.docker.com/compose/) and [Dockerfile](https://docs.docker.com/engine/reference/builder/) under usage from [Docker](https://www.docker.com)
-* Uses [PHP 8.4.13](https://www.php.net) for better performance, lower CPU and memory usage
+* Uses [PHP 8.5.0](https://www.php.net) for better performance, lower CPU and memory usage
 * And [composer the dependency manager for PHP](https://getcomposer.org) to start easy your project
-* Built on the lightweight [nginx 1.29.1](https://nginx.org) webserver
-* Debugging with [Xdebug 3.4.6](https://xdebug.org)
-* Testing with [PHPUnit 11.4.3](https://phpunit.de) to ensure code quality and reliability
-* [Redis 8.2.2](https://redis.io) as session storage, database, cache, streaming engine, and message broker
-* Database storage with [MariaDB 12.0.2](https://mariadb.org)
+* Built on the lightweight [nginx 1.29.3](https://nginx.org) webserver
+* Debugging with [Xdebug 3.5.0](https://xdebug.org)
+* Testing with [PHPUnit 12.5.1](https://phpunit.de) to ensure code quality and reliability
+* [Redis 8.4.0](https://redis.io) as session storage, database, cache, streaming engine, and message broker
+* Database storage with [MariaDB 12.1.2](https://mariadb.org)
 
 ## Setup Instructions
 
