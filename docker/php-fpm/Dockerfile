@@ -1,4 +1,4 @@
-FROM php:8.5.0-fpm
+FROM php:8.5.1-fpm
 WORKDIR "/app"
 
 # Update
