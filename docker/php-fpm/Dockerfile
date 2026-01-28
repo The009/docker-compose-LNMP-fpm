@@ -1,4 +1,4 @@
-FROM php:8.3.30-fpm
+FROM php:8.4-fpm
 WORKDIR "/app"
 
 # Update
@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get install -y libzip-dev zip
 
 # Install PHP extensions
-RUN docker-php-ext-install zip pdo pdo_mysql mysqli curl dom exif fileinfo hash imagick mbstring opensl xml
+RUN docker-php-ext-install zip pdo pdo_mysql mysqli curl dom exif fileinfo hash imagick mbstring openssl xml bcmath gd igbinary soap xmlreader xmlwriter xmlrpc xsl
 
 # Install Redis
 RUN pecl install -o -f redis && docker-php-ext-enable redis
