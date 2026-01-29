@@ -1,4 +1,6 @@
 services:
+    LIBXML_CFLAGS: "/usr/local/opt/libxml2/include"
+    LIBXML_LIBS: "/usr/local/opt/libxml2/lib"
     nginx:
         image: "nginx:1.29.4-alpine"
         restart: always
