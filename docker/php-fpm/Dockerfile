@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get install -y libzip-dev zip
 
 # Install PHP extensions
-RUN docker-php-ext-install zip pdo pdo_mysql mysqli curl dom exif fileinfo hash imagick mbstring openssl xml bcmath gd igbinary soap xmlreader xmlwriter xmlrpc xsl
+RUN docker-php-ext-install bcmath bz2 calendar ctype curl dba dl_test dom enchant exif ffi fileinfo filter ftp gd gettext gmp hash iconv intl json ldap mbstring mysqli odbc opcache pcntl pdo pdo_dblib pdo_firebird pdo_mysql pdo_odbc pdo_pgsql pdo_sqlite pgsql phar posix random readline reflection session shmop simplexml snmp soap sockets sodium spl standard sysvmsg sysvsem sysvshm tidy tokenizer xml xmlreader xmlwriter xsl zend_test zip
 
 # Install Redis
 RUN pecl install -o -f redis && docker-php-ext-enable redis
